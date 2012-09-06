@@ -1,0 +1,37 @@
+.Section                      {border-bottom: 1px dotted black; margin-bottom: 1em; text-align: left;}
+.Section h3                   {margin-top: 1em;}
+
+.PageForm                     {background-color: #fff6d4; color: #000; padding: 1em 5%; font-family: "Georiga", serif; width: 90%; margin: 0;}
+.PageForm ul                  {list-style: none !important; padding: 0 !important; margin: 0 !important;}
+.PageForm ul li               {margin: 1em 0;}
+.PageForm ul li label         {font-weight: bold; font-size: 14px;}
+.PageForm ul li p             {font-size: 12px; margin: 0 0;}
+.PageForm ul li h3            {color: #000 !important; font-style: normal !important; font-weight: bold !important;}
+.PageForm ul li input         {display: block;}
+.PageForm ul li textarea      {height: 6em;}
+.PageForm ul li.Submit        {display: inline;}
+.PageForm ul li.Reset         {display: inline;}
+.PageForm input               {width: 99%;}
+.PageForm textarea            {width: 99%; resize: vertical; max-width: 99%;}
+.PageForm .Required label     {padding-right: 10px; background-image: url('/img/asterisk.gif'); background-repeat: no-repeat; background-position: right;}
+.PageForm p.Required          {position: absolute; left: -1024px;}
+
+#SpotlightForm .Dates         {margin-bottom: 35px;}
+#SpotlightForm .Dates ul      {}
+#SpotlightForm .Dates li      {display: inline; margin-right: 1em;}
+#SpotlightForm .Dates label   {display: inline;}
+#SpotlightForm .Dates input   {width: 150px; display: inline;}
+#SpotlightForm .Copy p        {display: inline;}
+#Spotlightform .Image input   {position: relative;}
+
+#FeedbackForm .Phone p        {display: inline;}
+#FeedbackForm .About li,
+#FeedbackForm .Route li       {margin: 0;}
+#FeedbackForm .About ul input,
+#FeedbackForm .Route ul input {margin-top: 3px; *margin-top: 0; width: 10px; float: left; display: block;}
+#FeedbackForm .About ul .End,
+#FeedbackForm .Route ul .End  {clear: both;}
+#FeedbackForm .Route ul label,
+#FeedbackForm .About ul label {margin-left: .5em; float: left; font-weight: normal; display: block; background-image: none;}
+
+#CheckEmail                   {display: none;}
